@@ -113,7 +113,7 @@
 .main {
   max-width: 43.7rem;
   margin-inline: auto;
-  padding-block: 104px 54px;
+  padding-block: 104px 0;
 }
 
 .cards__list {
@@ -246,6 +246,7 @@ button:hover::before {
   padding-inline: 18px;
   align-self: center;
   align-items: center;
+  margin-block-start: 54px;
 }
 
 .dialog {
@@ -331,10 +332,6 @@ dialog:not([open]) {
 
   .card__title {
     padding-block: 4px 5px;
-  }
-
-  .page {
-    width: 100%;
   }
 
   .button__save {
