@@ -3,7 +3,7 @@
   --black: #000000;
   --green: #00cc14;
   --white: #ffffff;
-  --font-family: "Inter", serif;
+  --font-family: "Inter-Variable", serif;
   --accent-font: "PressStart2P", fantasy;
   --heading-weight: 700;
   --text-weight: 400;
@@ -17,9 +17,6 @@
     ),
     repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, #d3d3d300 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-    --width: clamp(371, 50%, 696);
+    --sparks: #ff0000;
 }
-/*
-  --like-body-color: none;
-  --like-contour: var(--text-color, #000000);
-  --like-sparks: #ff0000; */
+
